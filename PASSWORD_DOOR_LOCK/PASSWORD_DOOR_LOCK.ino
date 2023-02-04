@@ -29,7 +29,8 @@ bool changingPassword = false;
 
 void setup() {
   lcd.begin(16, 2);
-  servo.attach(SERVO_PIN, 200, 5400);
+  pinMode(BUZZER_PIN, OUTPUT);
+  servo.attach(SERVO_PIN, 544, 2400);
   servo.write(0);
   printMessage("[0] CLOSE", "", true);
 }
