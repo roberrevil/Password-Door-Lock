@@ -1,0 +1,7 @@
+﻿Nome,Quantità,Componente
+"KEYPAD1",1," Tastierino 4x4"
+"U1",1," Arduino Uno R3"
+"U2",1," LCD 16 x 2"
+"PIEZO1",1," Piezo"
+"SERVO1",1,"Di posizione Micro Servo"
+"R1, R2",2,"220 Ω Resistenza"
